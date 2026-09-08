@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sara Calculater</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+
+        <div class="top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                        <p class="bold text-left">Monday - Friday, 8:00am to 4:00pm </p>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                        <p class="bold text-right">Call us now +46 73 388 45 13</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#home">Sara Site<img src="img/logo.png" alt="logo" id="img"></a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li class="active"><a href="#service">Service</a></li>
+                    <li class="active"><a href="#team">Our team</a></li>
+                    <li class="active"><a href="#contact">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!-- Section: home -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.5s">
+                        <h2 class="h-ultra">Sara</h2>
+                    </div>
+                    <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.5s">
+                        <h4 class="h-light">The Third Java projet</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: services -->
+    <section id="service" class="services-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="wow fadeInUp" data-wow-delay="0.5s">
+                        <h2 class="h-bold">OUR SERVICE</h2>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.5s">
+                            <form class="main class=" form-group" name="form">
+                                <input class="textview form-control input-lg" id="inputdefault" name="textview">
+                                <button type="button" class="btn btn-primary btn-lg" onclick="c()" style="width:105px">C</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert('/')">÷</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert('*')">X</button><br>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert(7)">7</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert(8)">8</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert(9)">9</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert('-')">-</button><br>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert(4)">4</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert(5)">5</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert(6)">6</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert('+')">+</button><br>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert(1)">1</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert(2)">2</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert(3)">3</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="equal()">=</button><br>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert(0)" style="width:170px">0</button>
+                                <button type="button" class="btn btn-primary btn-lg" onclick="insert('.')">.</button>
+                            </form>
+                        </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section: team -->
+    <section id="team" class="team-section">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="wow fadeInDown" data-wow-delay="0.5s">
+                        <div class="section-heading text-center">
+                            <h2 class="h-bold">MEET OUR TEAM</h2>
+                            <p>Here can you meet oss</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container marginbot-50">
+            <div class="row">
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="wow fadeInRight" data-wow-delay="0.5s">
+                        <div class="service-box">
+                            <h5 class="h-light">One</h5>
+                            <img src="img/1.jpg" alt="dr2 photo">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="wow fadeInRight" data-wow-delay="0.5s">
+                        <div class="service-box">
+                            <h5 class="h-light">Two</h5>
+                            <img src="img/2.jpg" alt="dr2 photo">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="wow fadeInRight" data-wow-delay="0.5s">
+                        <div class="service-box">
+                            <h5 class="h-light">Three</h5>
+                            <img src="img/3.jpg" alt="dr2 photo">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="wow fadeInRight" data-wow-delay="0.5s">
+                        <div class="service-box">
+                            <h5 class="h-light">Four</h5>
+                            <img src="img/4.jpg" alt="dr2 photo">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Section: contact us -->
+    <section id="contact" class="social-section">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="wow fadeInDown" data-wow-delay="0.5s">
+                        <div class="widget">
+                            <h5>About my site</h5>
+                            <p>Take care.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="wow fadeInDown" data-wow-delay="0.5s">
+                        <div class="widget">
+                            <h5>Sara site</h5>
+                            <p>For general information, questions, appointment requests, call me at:</p>
+                            <ul>
+                                <li>
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-calendar-o fa-stack-1x fa-inverse"></i>
+                                    </span> Monday - friday, 8:00am to 4:00pm
+                                </li>
+                                <li>
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+                                    </span>+46 73 388 45 13
+                                </li>
+                                <li>
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                    </span>contact@sarasite.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <div class="wow fadeInDown" data-wow-delay="0.5s">
+                        <div class="widget">
+                            <h5>Our location</h5>
+                            <p>Elinebergsvägen 10A<br>25659 Helsingborg<br>Sweden</p>
+                        </div>
+                    </div>
+
+                    <div class="wow fadeInDown" data-wow-delay="0.5s">
+                        <div class="widget">
+                            <h5>Follow us</h5>
+                            <ul class="company-social">
+                                <li class="socialmedia"><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                <li class="socialmedia"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                                <li class="socialmedia"><a href="https://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bottom">
+        <div class="wow fadeInDown" data-wow-delay="0.5s">
+            <p>&copy;Copyright -Designed by S😊T- All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Ecoist</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/index-style.css">
+</head>
+
+<body>
+	<!-- start banner Area -->
+	<section>
+		<!-- Start Header Area -->
+		<header class="default-header">
+			<nav class="navbar navbar-expand-sm  navbar-dark">
+				<a class="navbar-brand logo" href="index.html">Ecoist</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">Story</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="our-team.html">Our team</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact-us.html">Contact us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="faq.html">FAQ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="media.html">Media</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+	</section>
+	<!--popUp-->
+	<section class="popUpContainer hidden row-center">
+		<div class="backdrop" onclick="hidePopUp()"></div>
+		<div class="popUp">
+			<div class="cross" onclick="hidePopUp()">
+				<svg width="20" height="20" fill="rgba(255,255,255,0.4)" version="1" xmlns="sara.omar.alterkawi@gmail.com" viewBox="0 0 22 22">
+					<path d="M14 11l8-8V2c0-1 0 0 0 0l-2-2h-1l-8 8-8-8H2C1 0 2 0 2 0L0 2v1l8 8-8 8v1c0 1 0 0 0 0l2 2h1l8-8 8 8h1l2-2v-1l-8-8z" />
+				</svg>
+			</div>
+			<h4 class="logo">Ecoist</h4>
+			<p>Subscribe to get latest news!</p>
+			<form class="row-center subscribeForm">
+				<input type="email" placeholder="Enter your email address" required>
+				<button class="btn btn-custom btn-lg">Subscribe</button>
+			</form>
+		</div>
+	</section>
+	<!-- Main Area -->
+	<section>
+		<div style="background: url(img/00.jpg);background-size: cover;">
+			<div class="container">
+				<div class="row fullscreen justify-content-center align-items-center">
+					<div class="col-md-10 col-12">
+						<div class="banner-content text-center">
+							<h4 class="text-white mb-20 "><i class="fas fa-leaf fa-flip-horizontal"></i>Be Ecoist! for you! and for your
+								planet!<i class="fas fa-leaf"></i></h4>
+							<a href="discover.html" class="text-uppercase header-btn">Discover Now</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="container text-center social"">
+				<ul>
+					<li><a href=" https://www.facebook.com/Ecoistvehicle/"> <i
+		 class="fab fa-facebook"></i></a></li>
+			<li><a href="https://www.instagram.com/ecoistvehicle/"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+			<p>&copy; Ecoist. All rights reserved. Designed by ROS</a></p>
+		</div>
+	</footer>
+	<!--java file-->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	 crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sara Uppgift Google News App </title>
+    <!--CSS Files-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!--navbar -->
+        <nav class="navbar justify-content-center navbar-light bg-info">
+            <h3 class="text-center">Your NEWS from your country أخبارك من بلدك</h3>
+        </nav>
+    </header>
+
+    <main>
+        <!--Country Select-->
+        <section class="container-fluid">
+            <!--Country List and value from google news Api-->
+            <select id="Country" class="Country">
+                <option value="">Select Country إختر البلد</option>
+                <option value="ar">Argentina</option>
+                <option value="au">Australia</option>
+                <option value="at">Austria</option>
+                <option value="be">Belgium</option>
+                <option value="br">Brazil</option>
+                <option value="bg">Bulgaria</option>
+                <option value="ca">Canada</option>
+                <option value="cn">China</option>
+                <option value="co">Colombia</option>
+                <option value="cu">Cuba</option>
+                <option value="cz">Czech Republic</option>
+                <option value="eg">Egypt جمهوربة مصر العربية</option>
+                <option value="fr">France</option>
+                <option value="de">Germany</option>
+                <option value="gr">Greece</option>
+                <option value="hk">Hong Kong</option>
+                <option value="hu">Hungary</option>
+                <option value="in">India</option>
+                <option value="id">Indonesia</option>
+                <option value="ie">Ireland</option>
+                <option value="il">Israel</option>
+                <option value="it">Italy</option>
+                <option value="jp">Japan</option>
+                <option value="lv">Latvia</option>
+                <option value="lt">Lithuania</option>
+                <option value="my">Malaysia</option>
+                <option value="mx">Mexico</option>
+                <option value="ma">Morocco</option>
+                <option value="nl">Netherlands</option>
+                <option value="nz">New Zealand</option>
+                <option value="ng">Nigeria</option>
+                <option value="no">Norway</option>
+                <option value="ph">Philippines</option>
+                <option value="pl">Poland</option>
+                <option value="pt">Portugal</option>
+                <option value="ro">Romania</option>
+                <option value="ru">Russia</option>
+                <option value="sa">Saudi Arabia المملكة العربية السعودية</option>
+                <option value="rs">Serbia</option>
+                <option value="sg">Singapore</option>
+                <option value="si">Slovenia</option>
+                <option value="za">South Africa</option>
+                <option value="kr">South Korea</option>
+                <option value="se">Sverige</option>
+                <option value="ch">Switzerland</option>
+                <option value="tw">Taiwan</option>
+                <option value="th">Thailand</option>
+                <option value="tr">Turkey</option>
+                <option value="ua">Ukraine</option>
+                <option value="ae">United Arab Emirates الإمارات العربية المتحدة</option>
+                <option value="us">United State</option>
+                <option value="ve">Vanuatu</option>
+            </select>
+        </section>
+
+        <!--NEWS Show section-->
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div id="show"></div>
+                </div>
+            </div>
+        </section>
+        <!--Footer-->
+        <footer class="container-fluid text-center">
+            <div>
+                <p>&copy;Copyright -Designed by S😊T- All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <!--JS Files-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

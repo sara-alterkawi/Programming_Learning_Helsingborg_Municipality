@@ -1,0 +1,152 @@
+@import url('http://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+html{
+   box-sizing: border-box;
+   width: 100%;
+   height: 100%;
+}
+
+*,* ::before, *::after{
+   box-sizing: inherit;/*inherit den är related till html*/
+   margin: 0%;
+}
+/*styling of all site*/
+body {
+    margin: 0;
+    font-family: 'Elsie Swash Caps', cursive;
+    text-transform: capitalize;
+    padding: 0;
+    text-align: left;
+    word-spacing: 2px;
+}
+/*The navpar*/
+nav {
+    color: #f2f2f2;
+}
+/*The shop image logo*/
+.navbar-brand {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+/*The shop name logo*/
+/*make first letter in the shopname with different color*/
+a.navbar-brand:first-letter {
+    color: #2954a2;
+}
+
+nav h1 {
+    text-transform: uppercase;
+    color: #f2f2f2;
+}
+
+/*make first letter in the shopname with different color*/
+h3.define span {
+    color: #2954a2;
+}
+
+h3.agile_btxt {
+    text-transform: capitalize;
+    color: #000;
+    font-family: 'Elsie Swash Caps', cursive;
+    word-spacing: 10px;
+}
+
+h3.agile_btxt span {
+    text-transform: capitalize;
+    color: #2954a2;
+    font-family: 'Elsie Swash Caps', cursive;
+}
+/*--banner--*/
+.banner {
+    width: 100%x;
+    height: 400px;
+    background: url(../images/amazon\ prime.jpeg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*--services--*/
+.material-icons {
+    color: #2954a2;   
+}
+
+.services-icon {
+    background: #BED0E9;
+    text-align: center;
+}
+
+.services-icon h4 {
+    font-size: 1.5em;
+    color: #2954a2;
+    text-transform: capitalize;
+}
+/* Shop */
+.hovereffect {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hovereffect img {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.hovereffect:hover img {
+    transform: scale(1.2);
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hovereffect:hover .overlay {
+    opacity: 1;
+}
+
+.hovereffect h5 {
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Elsie Swash Caps', cursive;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 80px;
+}
+
+.hovereffect a.info {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Elsie Swash Caps', cursive;
+    margin: 50px 0 0;
+    padding: 7px 30px;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+/*footer par*/
+footer {
+    text-align: center;
+    background: url(../images/background.png);
+}
+
+footer ul li  {
+    list-style: none;
+    display: inline;
+}

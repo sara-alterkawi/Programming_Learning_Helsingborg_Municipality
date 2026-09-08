@@ -1,0 +1,156 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+	font-weight: 300;
+	color: #0a3d62;
+	background-color: #82ccdd;
+	font-size: 16px;
+    line-height: 1.6em;
+}
+
+/* navigation bar */
+.top-area{
+	background: #0a3d62;
+	width: 100%;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.top-area p {
+	margin-bottom: 10px;
+}
+
+.navbar{
+	background: #fff;
+	margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);	
+}
+
+.navbar.navbar-custom {
+	width: inherit;
+	margin: 0 auto;
+	padding-bottom:0;
+	box-shadow: 0 0 3px rgba(0,0,0,0.12);
+}
+
+.navbar-custom ul.nav li a {
+	font-size: 13px;
+	letter-spacing: 1px;
+    color: #666;
+	text-transform: uppercase;
+	font-weight: 700;
+	background: transparent;
+}
+
+.navbar.navbar-custom ul.nav li.active a {
+	color: #0a3d62;
+}
+#img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+/* Section: home */
+
+.home-section{
+	margin: auto;
+	padding:140px 0 20px;
+	background: linear-gradient(to top, #0a3d62, #82ccdd);
+}
+
+
+/* Section: services */
+.services-section{
+	margin: auto;
+	padding:50px 0 20px;
+	background-color: #fff;
+	background-image: url(../img/01.jpg);
+	height: 500px;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+}
+
+/*Calculater*/
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+	padding: 5px;
+}
+
+.textview{
+    width: 220px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+	background: linear-gradient(to top, #0a3d62, rgba(3, 119, 252, 0.12));
+}
+
+/* Section: team */
+.team-section {
+	width:100%;
+	position:relative;
+	padding: 20px;
+	background: url(../img/bg1.png) repeat top center;
+}
+
+.team-section img {
+	margin-bottom: 20px;
+	border-radius: 100px;
+	height: 200px;
+	width: 200px;
+}
+
+.team-section h5 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+/* Section: contact us */
+.social-section {
+	background: linear-gradient(to top, #0a3d62, #82ccdd);
+}
+
+.social-section .widget {
+	margin-bottom: 30px;
+}
+
+.social-section .widget h5 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+div ul {
+    list-style: none;
+}
+.widget ul li{
+	display: inline-block;
+	margin-right: 15px;
+	align-items: center;
+}
+
+/* Footer */
+footer {
+	background: url(../img/bg1.png) repeat top center;
+	padding: 50px 0 0;
+	background-color: #f2f2f2;
+	padding: 50px 0 0;
+	text-align: center;
+}

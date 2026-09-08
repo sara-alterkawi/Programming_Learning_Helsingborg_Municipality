@@ -1,0 +1,134 @@
+@font-face {
+	src: url('vixar.ttf');
+	font-family: 'vixar';
+  }
+  body {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.625em;
+	position: relative;
+  }
+  /*Navbar CSS*/
+  .logo {
+	font-family: 'vixar';
+	font-size : 50px;
+   font-weight: bold;
+  }
+  .default-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9;
+	background-color: transparent;
+	width: 100% !important;
+  }
+  .navbar-nav a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color:#008001;
+	padding: 20px;
+  }
+hr {
+	height: 4px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: #008001;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border: 0;
+}
+.section-title {
+	margin-bottom: 70px;
+}
+.section-title p {
+	font-size: 18px;
+}
+.btn-custom {
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 0 3px #859c3c;
+	background-color: #008001;
+	border: 0;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 17px;
+	border-radius: 12px 0 12px 0;
+	margin-top: 20px;
+	transition: all 0.5s;
+}
+.btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
+	border: 1px solid #008001;
+	background: transparent;
+	color: #008001;
+}
+/* Contact Section */
+#contact {
+	padding: 120px 0 60px 0;
+	background: #F6F6F6;
+}
+#contact form {
+	padding: 30px 0;
+}
+#contact h3 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 400;
+	color: #555;
+}
+#contact .text-danger {
+	color: #cc0033;
+	text-align: left;
+}
+#contact .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 16px;
+	line-height: 2;
+	color: #008001;
+}
+#contact .form-control:focus {
+	border-color: #999;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+#contact .contact-item {
+	margin: 20px 0 40px 0;
+}
+#contact .contact-item span {
+	font-weight: 400;
+	color: #aaa;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+	display: inline-block;
+}
+#contact .contact-item p {
+	font-size: 16px;
+}/*Footer CSS*/
+#footer {
+	background: #333;
+	padding: 50px 0 20px 0;
+}
+#footer .social {
+	margin-bottom: 50px;
+}
+#footer .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#footer .social i {
+	font-size: 26px;
+	padding: 4px;
+	color: #008001;
+	transition: all 0.3s;
+}
+#footer .social i:hover {
+	color: #eee;
+}
+#footer p {
+  font-size: 15px;
+  color: #777777;
+}

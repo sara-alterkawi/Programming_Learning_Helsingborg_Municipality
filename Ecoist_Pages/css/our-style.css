@@ -1,0 +1,119 @@
+@font-face {
+	src: url('vixar.ttf');
+	font-family: 'vixar';
+  }
+  body {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.625em;
+	position: relative;
+  }
+  /*Navbar CSS*/
+  .logo {
+	font-family: 'vixar';
+	font-size : 50px;
+   font-weight: bold;
+  }
+  .default-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9;
+	background-color: transparent;
+	width: 100% !important;
+  }
+  .navbar-nav a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color:#008001;
+	padding: 20px;
+  }
+/* Team Section */
+#team {
+	background: #008001 url(../img/team-bg1.jpg) center top no-repeat;
+	background-size: cover;
+}
+#team .overlay {
+	padding: 120px 0;
+	background: rgba(151, 176, 68, 0.658);
+}
+#team h2, #team p {
+	color: #333;
+}
+hr {
+	background: #008001;
+	height: 4px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border: 0;
+}
+#team h3 {
+	font-weight: 500;
+	font-size: 20px;
+	margin: 5px 0;
+}
+#team .team-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50px 0 50px 0;
+	box-shadow: 15px 0 #008001;
+}
+#team .thumbnail {
+	background: transparent;
+	border: 0;
+}
+#team .thumbnail .caption {
+	padding-top: 10px;
+}
+#team .thumbnail .caption p {
+	color: #2a3333;
+}
+/*Footer CSS*/
+#footer {
+	background: #333;
+	padding: 50px 0 20px 0;
+}
+#footer .social {
+	margin-bottom: 50px;
+}
+#footer .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#footer .social i {
+	font-size: 26px;
+	padding: 4px;
+	color: #008001;
+	transition: all 0.3s;
+}
+#footer .social i:hover {
+	color: #eee;
+}
+#footer p {
+  font-size: 15px;
+  color: #777777;
+}
+
+
+.btn-custom {
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 0 3px #859c3c;
+	background-color: #008001;
+	border: 0;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 17px;
+	border-radius: 12px 0 12px 0;
+	margin-top: 20px;
+	transition: all 0.5s;
+}
+.btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
+	border: 1px solid #008001;
+	background: transparent;
+	color: #008001;
+}

@@ -1,0 +1,162 @@
+@font-face {
+  src: url('vixar.ttf');
+  font-family: 'vixar';
+}
+body {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  position: relative;
+}
+/*Navbar CSS*/
+.logo {
+  font-family: 'vixar';
+  font-size : 50px;
+ font-weight: bold;
+}
+.default-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  background-color: transparent;
+  width: 100% !important;
+}
+.navbar-nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+	color:#008001;
+  padding: 20px;
+}
+/*Main Area CSS*/
+i {
+	font-size: 26px;
+	padding: 4px;
+	color: #008001;
+	transition: all 0.3s;
+}
+.header-btn {
+  background-color: #008001;
+  padding: 8px 40px;
+  font-weight: 600;
+  color: #222;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  margin-top: 30px;
+  display: inline-block;
+}
+.header-btn:hover {
+  border: 1px solid #008001;
+  background: transparent;
+  color: #008001;
+}
+/*Footer CSS*/
+#footer {
+	background: #333;
+	padding: 50px 0 20px 0;
+}
+#footer .social {
+	margin-bottom: 50px;
+}
+#footer .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#footer .social i {
+	font-size: 26px;
+	padding: 4px;
+	color: #008001;
+	transition: all 0.3s;
+}
+#footer .social i:hover {
+	color: #eee;
+}
+#footer p {
+  font-size: 15px;
+  color: #777777;
+}
+/*Newsletter form*/
+.row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.popUpContainer {
+  position: fixed;
+  z-index: 100;
+}
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  background-color: #777777;
+  opacity: 0.5;
+  z-index: 1;
+  transition: 0.5s ease-out;
+}
+.popUpContainer.hidden {
+  pointer-events: none;
+}
+.popUpContainer.hidden .backdrop {
+  opacity: 0;
+}
+.popUp {
+  border-radius: 4px;
+  background-color: #264325;
+  width: 50vw;
+  min-width: 300px;
+  max-width: 500px;
+  padding: 26px 20px;
+  position: fixed;
+  z-index: 3;
+  transition: opacity 0.4s ease-out, transform 0.5s ease-in-out;
+}
+.popUpContainer.hidden .popUp {
+  opacity: 0;
+  transform: scale(0.5);
+}
+.cross {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 16px;
+}
+.popUp h4 {
+  margin: 0;
+  padding: 6px;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+}
+.popUp p {
+  margin: 0;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.popUp form {
+  padding: 14px 30px;
+}
+.popUp input {
+  margin: 10px;
+  padding: 12px;
+  font-size: 12px;
+  border-radius: 4px;
+  outline: none;
+  border: 0;
+  flex: 1;
+}
+.popUp button {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: #647332;
+  outline: none;
+  border: 0;
+}
+input[type=submit]:hover {
+  opacity: 0.8;
+}

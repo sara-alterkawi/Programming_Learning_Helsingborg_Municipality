@@ -1,0 +1,44 @@
+
+*{
+    box-sizing: border-box;
+ }
+
+ * *:before *:after{
+    box-sizing: inherit;
+}
+
+.row{
+    margin: 0 auto;
+}
+
+.row::after{
+content: "";
+clear: both;
+display: table;
+}
+ 
+ .col-2, .col-3, .col-4, .col-6, .col-12, .col-8{
+ float: left;
+ width: 100%;
+ }
+ 
+ @media screen and (min-width:640px){
+     .col-2 {
+        width:16.6666%;
+     }
+    .col-3{
+        width:25%;
+    }
+    .col-4{
+        width:33.33333%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-8{
+        width: 66.666666%;
+    }
+    .col-12{
+        width:100%;
+    }
+ }

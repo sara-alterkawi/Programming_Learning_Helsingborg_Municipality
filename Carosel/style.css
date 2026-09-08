@@ -1,0 +1,29 @@
+.active2 {
+  background-color: teal !important;
+}
+
+.navImg {
+  width: 80%;
+  background-color: #020;
+  padding: 0px 8px;
+  border: 2px solid black;
+}
+
+.moveMeUp {
+  position: relative;
+  top: -4em;
+}
+
+.shiftMeRight {
+  padding-left: 5%
+}
+
+.grimeME {
+  background-color: rgba(70, 80, 90, 0.8);
+  right: 0% !important;
+  top: 0% !important;
+  bottom: 70% !important;
+  left: 70% !important;
+  border-radius: 0 0 0 30px !important;
+  padding-bottom: 150px !important;
+}

@@ -1,0 +1,144 @@
+@import url('http://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+html{
+   box-sizing: border-box;
+   width: 100%;
+   height: 100%;
+}
+
+*,* ::before, *::after{
+   box-sizing: inherit;/*inherit den är related till html*/
+   margin: 0%;
+}
+/*styling of all site*/
+body {
+    margin: 0;
+    font-family: 'Elsie Swash Caps', cursive;
+    text-transform: capitalize;
+    padding: 0;
+    text-align: left;
+    word-spacing: 2px;
+}
+/*The navpar*/
+nav {
+    color: #f2f2f2;
+}
+/*The shop image logo*/
+.navbar-brand {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+/*The shop name logo*/
+/*make first letter in the shopname with different color*/
+a.navbar-brand:first-letter {
+    color: #2954a2;
+}
+
+nav h1 {
+    text-transform: uppercase;
+    color: #f2f2f2;
+}
+
+/*make first letter in the shopname with different color*/
+h3.define span {
+    color: #2954a2;
+}
+
+.content {
+    padding: 1em 4em;
+    color: #f2f2f2;
+    /*background image for this part*/
+    background: url(../images/kid.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content .top h4 {
+    padding-bottom: 10px;
+    padding-top: 3rem;
+}
+
+.content .top h4 span {
+    font-size: 2em;
+}
+/*Products in shop*/
+.products .product-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.products .product-list .product {
+    margin: 1%;
+    height: 500px;
+}
+/*The image in the product side*/
+.products .product-list .product img {
+    width: 100%;
+    border-radius: 50%;
+}
+/*products content*/
+.products .product-list .product .product-content {
+    padding: 2%;
+}
+/*The product price*/
+.price-c small {
+    color: rgb(240, 128, 128);
+    font-size: 13px;
+}
+/*The button add item to the cart*/
+.btn-add {
+    display: block;
+    margin: 2% auto;
+    padding: 10px 15px;
+    border-radius: 15px;
+    outline: none;
+    background: url(../images/background.png);
+}
+/*Shopping cart*/
+/*cart title and heading*/
+.heading {
+    padding: 1em;
+    position: relative;
+    color: #f7f7f7;
+    background-color: rgb(240, 128, 128);
+    border-radius: 15px;
+}
+
+/*cart content*/
+.cart {
+color: black;
+background: url(../images/background.png);
+border-radius: 15px;
+padding: 1em;
+}
+/*Items in Cart*/
+.cart .cart-list {
+    padding-left: 0px;
+    list-style: none;
+}
+/*Button X remove item fron cart*/
+.btn-x {
+    top: 0.2em;
+    right: 0.2em;
+    font:  bold 1em arial;
+    border: 0.16em solid;
+    border-radius: 2.5em;
+    padding: 0 0.22em 0 0.25em ;
+}
+
+.cart .cart-list .item h6,
+.cart .cart-list .item .btn-x {
+    display: inline;
+}
+
+/*footer par*/
+footer {
+    text-align: center;
+    background: url(../images/background.png);
+}
+
+footer ul li  {
+    list-style: none;
+    display: inline;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our team</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/contact-style.css">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<!--Navbar-->
+	<header class="default-header">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand logo" href="index.html">Ecoist</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">Story</a></li>
+						<li><a href="our-team.html">Our team</a></li>
+						<li class="active"><a href="contact-us.html">Contact us</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="media.html">Media</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+  <!-- Contact Section -->
+  <div id="contact">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Contact Us</h2>
+        <hr>
+      </div>
+      <div class="col-md-4">
+        <h3>Contact Info</h3>
+        <div class="contact-item"> <span>Address<i class="fas fa-map-marked-alt"></i></span>
+          <p>Ecoist AB,<br>
+            c/o Pixla piren<br>
+            ocean gatan 2<br>
+            Helsingborg, Sweden</p>
+        </div>
+        <div class="contact-item"> <span>Phone<i class="fas fa-phone"></i></span>
+          <p> +46 70 550 18 65</p>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <h3>Leave us a message</h3>
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+          <div id="success"></div>
+          <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="container text-center social"">
+				<ul>
+					<li><a href=" https://www.facebook.com/Ecoistvehicle/"> <i class="fab fa-facebook"></i></a></li>
+			<li><a href="https://www.instagram.com/ecoistvehicle/"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+			<p>&copy; Ecoist. All rights reserved. Designed by ROS</a></p>
+		</div>
+	</footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript" src="js/contact_me.js"></script>
+</body>
+
+</html>

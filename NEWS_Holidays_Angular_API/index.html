@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sara API Project</title>
+    <!--CSS Files-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!--navbar -->
+        <nav class="navbar justify-content-center navbar-light bg-info">
+            <h3 class="text-center">Find out NEWS and the holidays for the selected country</h3>
+        </nav>
+    </header>
+
+    <main>
+        <!--Country Select-->
+        <section class="container-fluid">
+            <!--Country List and value from both google news and calendarindex Api-->
+            <select id="Country" class="Country">
+                <option value="">Select Country</option>
+                <option value="Ar">Argentina</option>
+                <option value="Au">Australia</option>
+                <option value="At">Austria</option>
+                <option value="Be">Belgium</option>
+                <option value="Br">Brazil</option>
+                <option value="Bg">Bulgaria</option>
+                <option value="Ca">Canada</option>
+                <option value="Cn">China</option>
+                <option value="Co">Colombia</option>
+                <option value="Cu">Cuba</option>
+                <option value="Cz">Czech Republic</option>
+                <option value="Eg">Egypt جمهوربة مصر العربية</option>
+                <option value="Fr">France</option>
+                <option value="De">Germany</option>
+                <option value="Gr">Greece</option>
+                <option value="Hk">Hong Kong</option>
+                <option value="Hu">Hungary</option>
+                <option value="Ie">Ireland</option>
+                <option value="It">Italy</option>
+                <option value="Jp">Japan</option>
+                <option value="Lv">Latvia</option>
+                <option value="Lt">Lithuania</option>
+                <option value="My">Malaysia</option>
+                <option value="Mx">Mexico</option>
+                <option value="Ma">Morocco</option>
+                <option value="Nl">Netherlands</option>
+                <option value="Nz">New Zealand</option>
+                <option value="Ng">Nigeria</option>
+                <option value="No">Norway</option>
+                <option value="Ph">Philippines</option>
+                <option value="Pl">Poland</option>
+                <option value="Pt">Portugal</option>
+                <option value="Ro">Romania</option>
+                <option value="Ru">Russia</option>
+                <option value="Sa">Saudi Arabia المملكة العربية السعودية</option>
+                <option value="Sr">Serbia</option>
+                <option value="Si">Slovenia</option>
+                <option value="Sa">South Africa</option>
+                <option value="Se">Sverige</option>
+                <option value="Ch">Switzerland</option>
+                <option value="Tw">Taiwan</option>
+                <option value="Th">Thailand</option>
+                <option value="Tr">Turkey</option>
+                <option value="Ua">Ukraine</option>
+                <option value="Us">United State</option>
+            </select>
+        </section>
+
+        <!--Holidays show section-->
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div id="holiday"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--NEWS show section-->
+        <section class="container-fluid" id="show">
+           
+        </section>
+         
+        <!--Footer-->
+        <footer class="container-fluid text-center">
+            <div>
+                <p>&copy;Copyright -Designed by S😊T- All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <!--JS Files-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

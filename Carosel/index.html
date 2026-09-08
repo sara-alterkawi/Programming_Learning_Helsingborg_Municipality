@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html ng-app="RosApp">
+
+<head>
+  <meta charset="UTF-8">
+  <title>angular-carousel</title>
+  <!-- Latest compiled and minified CSS -->
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/angular-carousel/1.0.1/angular-carousel.min.css' rel='stylesheet'
+    type='text/css'>
+  <link href='http://blog.revolunet.com/angular-carousel/demo/demo.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="row" ng-controller="DemoCtrl">
+    <h1 class="col-xs-12 alert-info text-center">Jag vill is your site
+      <hr style="border-color:silver">
+      <small>In our site you can look after school, library, museum or activity for your child</small>
+    </h1>
+    <div class="row">
+      <div class="col-xs-12" style="height:500px !important;">
+        <ul rn-carousel rn-carousel-index="carouselIndex3" rn-carousel-auto-slide rn-carousel-transition="hexagon"
+          style="width:100%;height:100% !important;">
+          <li ng-repeat="slide in slides3" style="width:100%;height:100% !important;">
+            <img src={{slide.img}} style="width:100%;height:100% !important;">
+            <div class="carousel-caption grimeME">
+              <h3>{{slide.caption}}</h3>
+              <p>{{slide.details}}</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row moveMeUp">
+      <ul class="nav row">
+        <li ng-repeat="slide in slides3" class='shiftMeRight'>
+          <div class="col-xs-offse-1 col-xs-4">
+
+            <img ng-class="{active2: $index==$parent.carouselIndex3}" src={{slide.img}} class="navImg img-circle"
+              ng-mouseover="$parent.carouselIndex3 = $index" />
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Latest compiled and minified JavaScript -->
+
+  <script src=" https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-touch.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-carousel/1.0.1/angular-carousel.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+@font-face {
+    src: url('vixar.ttf');
+    font-family: 'vixar';
+}
+*,body{
+    box-sizing: border-box;
+    scroll-behavior: unset;
+
+}
+.default-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: transparent;
+    width: 100% !important;
+  }
+  .navbar-nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+      color:#008001;
+    padding: 20px;
+  }
+.container {
+    /* position: relative;*/
+     width: 50%;
+     max-width: 300px;
+   }
+   
+
+.mainCon{
+    background-image: url(../img/00.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'vixar';
+  /*  scroll-behavior: unset;*/
+}
+.header {
+    text-align: center;
+    font-family: Vixar;
+    color: rgb(45, 105, 45);
+    
+}
+ 
+.colm{
+    color: white;
+    padding: 200px 20px 300px 20px;
+    height: 800px;
+    text-align: center;
+    font-size-adjust: 0.58;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    
+}
+/*-----title---*/
+ p{
+     word-spacing: 20px;
+ }
